@@ -1,2 +1,21 @@
 # aws-serverless-web-app
-Serverless web application using AWS Lambda, API Gateway, DynamoDB
+
+
+AWS Serverless Web App
+
+OVERVIEW
+A simple web application using AWS Lambda, API Gateway, and DynamoDB.
+Users submit a form in browser, AWS stores data in a DynamoDB table via Lambda.
+
+AWS SERVICES USED
+- Amazon S3 (for hosting frontend)
+- API Gateway
+- AWS Lambda
+- Amazon DynamoDB
+- IAM Roles
+
+PROJECT FLOW
+User → Web Form → API Gateway → Lambda → DynamoDB
+
+RESULT
+Data submitted from the web application is stored in DynamoDB.
